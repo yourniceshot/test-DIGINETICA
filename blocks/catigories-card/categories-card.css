@@ -20,13 +20,6 @@
     margin-right: 20px;
 }
 
-.categories-card:last-of-type::after {
-    content: "";
-    box-sizing: border-box;
-    background-color:white;
-    border: 1px solid white;
-}
-
 .categories-card:hover {
     cursor: pointer;
 }

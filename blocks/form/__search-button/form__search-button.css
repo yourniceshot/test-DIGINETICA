@@ -6,6 +6,8 @@
     border-radius: 0px 3px 3px 0px;
     position: absolute;
     left: 937px;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .form__search-button:hover {
