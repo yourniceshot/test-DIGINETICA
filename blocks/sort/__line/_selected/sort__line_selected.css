@@ -1,0 +1,9 @@
+.sort__line_selected {
+    border-bottom: 1px solid #F1BD45;
+    color: #333333 !important;
+    cursor: default !important;
+}
+
+.sort__line_selected:hover {
+    opacity: 1 !important;
+}

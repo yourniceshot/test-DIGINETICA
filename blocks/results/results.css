@@ -1,0 +1,11 @@
+@import url('./__title/results__title.css');
+@import url('./__subtitle/results__subtitle.css');
+
+.results {
+    width: 917px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,10 @@
+.bar__circle-left {
+    width: 14px;
+    height: 14px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    right: 30px;
+}

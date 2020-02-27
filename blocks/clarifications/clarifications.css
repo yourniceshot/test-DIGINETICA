@@ -1,0 +1,8 @@
+@import url('./__item/clarifications__item.css');
+
+.clarifications {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

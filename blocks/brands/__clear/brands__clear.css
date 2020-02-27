@@ -1,0 +1,9 @@
+.brands__clear {
+    font-family: Arial;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #333333;
+    opacity: 0.5;
+}

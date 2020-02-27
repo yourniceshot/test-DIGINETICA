@@ -1,0 +1,10 @@
+@import url('./__icon-x/searcher__icon-x.css');
+@import url('./__icon/searcher__icon.css');
+@import url('./__stick/searcher__stick.css');
+
+.searcher {
+    width: 1210px;
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 31px;
+}

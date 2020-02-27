@@ -1,0 +1,12 @@
+.sort__list {
+    width: 40px;
+    height: 33px;
+    border: 1px solid #DEDEDE;
+    box-shadow: none;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 3px;
+    padding-left: 10px;
+}

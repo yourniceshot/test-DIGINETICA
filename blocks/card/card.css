@@ -1,0 +1,15 @@
+@import url('./__button/card__button.css');
+@import url('./__former-price/card__former-price.css');
+@import url('./__img/card__img.css');
+@import url('./__name/card__name.css');
+@import url('./__price/card__price.css');
+@import url('./__wrapper/card__wrapper.css');
+
+.card {
+    width: 260px;
+    height: 400px;
+}
+
+.card:hover {
+    cursor: pointer;
+}

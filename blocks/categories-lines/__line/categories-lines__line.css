@@ -1,0 +1,12 @@
+.categories-lines__line {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5375B7;
+    margin-bottom: 11px;
+}
+
+.categories-lines__line:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}

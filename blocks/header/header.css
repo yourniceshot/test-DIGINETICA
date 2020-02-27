@@ -1,0 +1,11 @@
+@import url('./__title/header__title.css');
+
+.header {
+    background-color: black;
+    width: 1280px;
+    height: 100px;
+    padding-left: 24px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+}

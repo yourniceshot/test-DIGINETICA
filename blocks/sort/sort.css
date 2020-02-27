@@ -1,0 +1,13 @@
+@import url('./__line/sort__line.css');
+@import url('./__list/sort__list.css');
+@import url('./__title/sort__title.css');
+@import url('./__wrapper/sort__wrapper.css');
+@import url('./__wrapper-left/sort__wrapper-left.css');
+@import url('./__icon/sort__icon.css');
+
+.sort {
+    width: 867px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,8 @@
+.pagination__number_bold {
+    opacity: 1 !important;
+    margin-right: 10px;
+}
+
+.pagination__number_bold:hover {
+    cursor: default !important;
+}

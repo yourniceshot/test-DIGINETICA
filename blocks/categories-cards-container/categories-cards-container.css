@@ -1,0 +1,12 @@
+@import url('./__card/categories-cards-container__card.css');
+@import url('./__gradient/categories-cards-container__gradient.css');
+
+.categories-cards-container {
+    margin-left: 40px;
+    height: 60px;
+    width: 1170px;
+    margin-bottom: 59px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}

@@ -1,0 +1,32 @@
+@import url('./__amount/categories-card__amount.css');
+@import url('./__img/categories-card__img.css');
+@import url('./__title/categories-card__title.css');
+@import url('./__wrapper/categories-card__wrapper.css');
+
+.categories-card {
+    height: 60px;
+    width: 251px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-card::after {
+    content: "";
+    box-sizing: border-box;
+    background-color: #B9B9B9;
+    border: 1px solid #B9B9B9;
+    height: 60px;
+    width: 1px;
+    margin-right: 20px;
+}
+
+.categories-card:last-of-type::after {
+    content: "";
+    box-sizing: border-box;
+    background-color:white;
+    border: 1px solid white;
+}
+
+.categories-card:hover {
+    cursor: pointer;
+}

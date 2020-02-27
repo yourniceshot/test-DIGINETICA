@@ -1,0 +1,14 @@
+.form__close-button {
+    width: 117px;
+    height: 40px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+}
+
+.form__close-button:hover {
+    cursor: pointer;
+    background-color: #DEDEDE;
+}

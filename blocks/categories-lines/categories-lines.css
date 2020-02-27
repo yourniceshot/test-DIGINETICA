@@ -1,0 +1,10 @@
+@import url('./__line/categories-lines__line.css');
+@import url('./__more/categories-lines__more.css');
+@import url('./__title/categories-lines__title.css');
+@import url('./__amount/categories-lines__amount.css');
+
+.categories-lines {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+}

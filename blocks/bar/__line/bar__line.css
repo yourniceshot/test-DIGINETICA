@@ -1,0 +1,6 @@
+.bar__line {
+    width: 290px;
+    height: 4px;
+    background-color: black;
+    border-radius: 30px;
+}

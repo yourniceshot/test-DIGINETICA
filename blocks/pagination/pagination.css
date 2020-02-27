@@ -1,0 +1,9 @@
+@import url('./__icon/pagination__icon.css');
+@import url('./__number/pagination__number.css');
+
+.pagination {
+    width: 200px;
+    margin-bottom: 53px;
+    display: flex;
+    align-items: center;
+}

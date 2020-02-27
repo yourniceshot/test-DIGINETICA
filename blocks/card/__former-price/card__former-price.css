@@ -1,0 +1,8 @@
+.card__former-price {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    color: #A9A9A9;
+}

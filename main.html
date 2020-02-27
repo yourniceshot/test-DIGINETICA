@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+  <html lang="ru">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Test</title>
+      <link rel="stylesheet" href="./index.css">
+      <link rel="stylesheet" href="./blocks/vendor/normalize.css">
+  </head>
+  <body>
+    <page>
+        <header class="header">
+            <span class="header__title">Шапка сайта</span>
+        </header>
+        <div class="searcher">
+            <form class="searcher__form form">
+                <input class="form__input">
+                <button class="form__search-button">Найти</button>
+                <button class="form__close-button">Закрыть</button>
+            </form>
+            <img class="searcher__icon" src="./imgs/Frame.svg" alt="">
+            <img class="searcher__stick" src="./imgs/Vector.svg" alt="">
+            <img class="searcher__icon-x" src="./imgs/Cross.svg" alt="">
+        </div>
+        <div class="results">
+            <h1 class="results__title">Результаты по запросу</h1>
+            <span class="results__subtitle">Показаны результаты для “Запрос пользозвателя”. Вы искали “<i>Зопрос</i> пользователя”.</span>
+        </div>
+        <div class="categories-cards-container">
+            <div class="categories-cards-container__card categories-card">
+                <div class="categories-card__img"></div>
+                <div class="categories-card__wrapper">
+                    <span class="categories-card__title">Название категории</span>
+                    <span class="categories-card__amount">134 товара</span>
+                </div>
+            </div>
+            <div class="categories-cards-container__card categories-card">
+                <div class="categories-card__img"></div>
+                <div class="categories-card__wrapper">
+                    <span class="categories-card__title">Название категории</span>
+                    <span class="categories-card__amount">134 товара</span>
+                </div>
+            </div>
+            <div class="categories-cards-container__card categories-card">
+                <div class="categories-card__img"></div>
+                <div class="categories-card__wrapper">
+                    <span class="categories-card__title">Название категории</span>
+                    <span class="categories-card__amount">134 товара</span>
+                </div>
+            </div>
+            <div class="categories-cards-container__card categories-card">
+                <div class="categories-card__img"></div>
+                <div class="categories-card__wrapper">
+                    <span class="categories-card__title">Название категории</span>
+                    <span class="categories-card__amount">134 товара</span>
+                </div>
+            </div>
+            <div class="categories-cards-container__card categories-card">
+                <div class="categories-card__img"></div>
+                <div class="categories-card__wrapper">
+                    <span class="categories-card__title">Название категории</span>
+                    <span class="categories-card__amount">134 товара</span>
+                </div>
+            </div>
+            <div class="categories-cards-container__gradient"></div>
+        </div>
+            <div class="wrapper">
+                <div class="sidebar">
+                    <div class="sidebar__categories-lines categories-lines">
+                        <span class="categories-lines__title">Все категории</span>
+                        <span class="categories-lines__line">Категория, в которой нашли что-то <span class="categories-lines__amount">(ххх)</span></span>
+                        <span class="categories-lines__line">Категория, в которой нашли что-то <span class="categories-lines__amount">(ххх)</span></span>
+                        <span class="categories-lines__line">Категория, в которой нашли что-то <span class="categories-lines__amount">(ххх)</span></span>
+                        <span class="categories-lines__line">Категория, в которой нашли что-то <span class="categories-lines__amount">(ххх)</span></span>
+                        <span class="categories-lines__line">Категория, в которой нашли что-то <span class="categories-lines__amount">(ххх)</span></span>
+                        <span class="categories-lines__line">Категория, в которой нашли что-то <span class="categories-lines__amount">(ххх)</span></span>
+                        <span class="categories-lines__line">Категория, в которой нашли что-то <span class="categories-lines__amount">(ххх)</span></span>
+                        <span class="categories-lines__line">Категория, в которой нашли что-то <span class="categories-lines__amount">(ххх)</span></span>
+                        <span class="categories-lines__line">Еще 10 категорий...</span>
+                    </div>
+
+                    <div class="sidebar__price-bar price-bar">
+                        <span class="price-bar__title">Цена, валюта</span>
+                        <div class="price-bar__wrapper">
+                            <span class="price-bar__text">от</span>
+                            <input class="price-bar__input">
+                            <span class="price-bar__text">до</span>
+                            <input class="price-bar__input">
+                            <span class="price-bar__text">P</span>
+                        </div>
+                        <div class="price-bar__bar bar">
+                            <div class="bar__line"></div>
+                            <div class="bar__circle-left"></div>
+                            <div class="bar__circle-right"></div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar__brands brands">
+                        <div class="brands__wrapper">
+                            <span class="brands__title">Бренды</span>
+                            <span class="brands__clear">Очистить</span>
+                        </div>
+                        <div class="brands__checkboxes">
+                            <p class="brands__texts"><input type="checkbox" class="brands__checkbox"> Бренд <span class="brands__amount">(xxx)</span><Br>
+                                <input type="checkbox" class="brands__checkbox"> Бренд <span class="brands__amount">(x)</span><Br>
+                                <input type="checkbox" class="brands__checkbox"> Бренд <span class="brands__amount">(x xxx)</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="main__sort sort">
+                        <div class="sort__wrapper-left">
+                            <span class="sort__title">Сортировать по:</span>
+                            <span class="sort__line sort__line_selected">популярности</span>
+                            <span class="sort__line">сначала дешевые</span>
+                            <span class="sort__line">сначала дорогие</span>
+                        </div>
+                        <div class="sort__wrapper">
+                            <span class="sort__title">показывать по</span>
+                            <input class="sort__list">
+                            <img class="sort__icon" src="./imgs/Group.svg" alt="">
+                        </div> 
+                    </div>
+
+                    <div class="main__clarifications clarifications">
+                        <div class="clarifications__item">Уточнение</div>
+                        <div class="clarifications__item">Уточнение</div>
+                        <div class="clarifications__item">Уточнение</div>
+                        <div class="clarifications__item">Уточнение</div>
+                    </div>
+
+                    <div class="main__cardlist cardlist">
+                        <div class="cardlist__card card">
+                            <div class="card__img"></div>
+                            <span class="card__name">Наименование товара, которое не более 2 строк</span>
+                            <div class="card__wrapper">
+                                <span class="card__price">ХХ ХХХ , $</span>
+                                <span class="card__former-price">ХХ ХХХ $</span>
+                            </div>
+                            <button class="card__button">Кнопка</button>
+                        </div>
+                        <div class="cardlist__card card">
+                            <div class="card__img"></div>
+                            <span class="card__name">Наименование товара, которое не более 2 строк</span>
+                            <div class="card__wrapper">
+                                <span class="card__price">ХХ ХХХ , $</span>
+                                <span class="card__former-price">ХХ ХХХ $</span>
+                            </div>
+                            <button class="card__button">Кнопка</button>
+                        </div>
+                        <div class="cardlist__card card">
+                            <div class="card__img"></div>
+                            <span class="card__name">Наименование товара, которое не более 2 строк</span>
+                            <div class="card__wrapper">
+                                <span class="card__price">ХХ ХХХ , $</span>
+                                <span class="card__former-price">ХХ ХХХ $</span>
+                            </div>
+                            <button class="card__button">Кнопка</button>
+                        </div>
+                        <div class="cardlist__card card">
+                            <div class="card__img"></div>
+                            <span class="card__name">Наименование товара, которое не более 2 строк</span>
+                            <div class="card__wrapper">
+                                <span class="card__price">ХХ ХХХ , $</span>
+                                <span class="card__former-price">ХХ ХХХ $</span>
+                            </div>
+                            <button class="card__button">Кнопка</button>
+                        </div>
+                        <div class="cardlist__card card">
+                            <div class="card__img"></div>
+                            <span class="card__name">Наименование товара, которое не более 2 строк</span>
+                            <div class="card__wrapper">
+                                <span class="card__price">ХХ ХХХ , $</span>
+                                <span class="card__former-price">ХХ ХХХ $</span>
+                            </div>
+                            <button class="card__button">Кнопка</button>
+                        </div>
+                        <div class="cardlist__card card">
+                            <div class="card__img"></div>
+                            <span class="card__name">Наименование товара, которое не более 2 строк</span>
+                            <div class="card__wrapper">
+                                <span class="card__price">ХХ ХХХ , $</span>
+                                <span class="card__former-price">ХХ ХХХ $</span>
+                            </div>
+                            <button class="card__button">Кнопка</button>
+                        </div>
+                        <div class="cardlist__card card">
+                            <div class="card__img"></div>
+                            <span class="card__name">Наименование товара, которое не более 2 строк</span>
+                            <div class="card__wrapper">
+                                <span class="card__price">ХХ ХХХ , $</span>
+                                <span class="card__former-price">ХХ ХХХ $</span>
+                            </div>
+                            <button class="card__button">Кнопка</button>
+                        </div>
+                        <div class="cardlist__card card">
+                            <div class="card__img"></div>
+                            <span class="card__name">Наименование товара, которое не более 2 строк</span>
+                            <div class="card__wrapper">
+                                <span class="card__price">ХХ ХХХ , $</span>
+                                <span class="card__former-price">ХХ ХХХ $</span>
+                            </div>
+                            <button class="card__button">Кнопка</button>
+                        </div>
+                        <div class="cardlist__card card">
+                            <div class="card__img"></div>
+                            <span class="card__name">Наименование товара, которое не более 2 строк</span>
+                            <div class="card__wrapper">
+                                <span class="card__price">ХХ ХХХ , $</span>
+                                <span class="card__former-price">ХХ ХХХ $</span>
+                            </div>
+                            <button class="card__button">Кнопка</button>
+                        </div>
+                    </div>
+                    <div class="main__pagination pagination">
+                        <span class="pagination__number">2</span>
+                        <span class="pagination__number pagination__number_bold">3</span>
+                        <span class="pagination__number pagination__number_bold">...</span>
+                        <span class="pagination__number">13</span>
+                        <img class="pagination__icon" src="./imgs/Group.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </page>
+  </body>
+  </html>

@@ -1,0 +1,8 @@
+@import url('./__circle-left/bar__circle-left.css');
+@import url('./__circle-right/bar__circle-right.css');
+@import url('./__line/bar__line.css');
+
+.bar {
+    position: relative;
+    margin-bottom: 32px;
+}

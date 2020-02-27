@@ -1,0 +1,8 @@
+.card__name {
+    height: 37px;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+}
